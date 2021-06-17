@@ -8,9 +8,9 @@ class Worker
     private $salary;
 
     public function __construct($name, $age, $salary){
-        $this->name = $name;
-        $this->age = $age;
-        $this->salary = $salary;
+        return $this->name = $name;
+        return $this->age = $age;
+        return $this->salary = $salary;
     }
 
     public function getName(){

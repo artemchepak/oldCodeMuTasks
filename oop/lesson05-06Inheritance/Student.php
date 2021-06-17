@@ -7,7 +7,7 @@ class Student extends User
     private $course;
 
     public function setScholarship($scholarship){
-        $this->scholarship = $scholarship;
+        return $this->scholarship = $scholarship;
     }
 
     public function getScholarship(){
@@ -15,7 +15,7 @@ class Student extends User
     }
 
     public function setCourse($course){
-        $this->course = $course;
+        return $this->course = $course;
     }
 
     public function getCourse(){

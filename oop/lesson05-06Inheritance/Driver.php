@@ -7,7 +7,7 @@ class Driver extends Worker
     private $drivingCategory;
 
     public function setDrivingExperience($drivingExperience){
-        $this->drivingExperience = $drivingExperience;
+        return $this->drivingExperience = $drivingExperience;
     }
 
     public function getDrivingExperience(){
@@ -15,7 +15,7 @@ class Driver extends Worker
     }
 
     public function setDrivingCategory($drivingCategory){
-        $this->drivingCategory = $drivingCategory;
+        return $this->drivingCategory = $drivingCategory;
     }
 
     public function getDrivingCategory(){

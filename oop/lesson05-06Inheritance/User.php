@@ -8,7 +8,7 @@ class User
     protected $age;
 
     public function setName($name){
-        $this->name = $name;
+        return $this->name = $name;
     }
 
     public function getName(){
@@ -16,7 +16,7 @@ class User
     }
 
     public function setAge($age){
-        $this->age = $age;
+        return $this->age = $age;
     }
 
     public function getAge(){
