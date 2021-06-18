@@ -1,5 +1,6 @@
 <?php
 
+namespace oop\lesson04;
 
 class Worker
 {
@@ -8,9 +9,9 @@ class Worker
     private $salary;
 
     public function __construct($name, $age, $salary){
-        return $this->name = $name;
-        return $this->age = $age;
-        return $this->salary = $salary;
+        $this->name = $name;
+        $this->age = $age;
+        $this->salary = $salary;
     }
 
     public function getName(){

@@ -1,5 +1,6 @@
 <?php
 
+namespace oop\lesson01;
 
 class Worker
 {

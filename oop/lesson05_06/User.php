@@ -1,5 +1,6 @@
 <?php
 
+namespace oop\lesson05_06;
 
 class User
 {

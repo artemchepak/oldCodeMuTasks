@@ -1,5 +1,6 @@
 <?php
 
+namespace oop\lesson03;
 
 class Worker
 {
@@ -16,7 +17,9 @@ class Worker
     }
 
     public function setAge($age){
-        return $this->age = $age;
+        if($this->checkAge($age)){
+            return $this->age = $age;
+        };
     }
 
     public function getAge(){
@@ -29,5 +32,9 @@ class Worker
 
     public function getSalary(){
         return $this->salary;
+    }
+
+    private function checkAge($age){
+        return $age >= 1 && $age <= 100 ? true : false;
     }
 }

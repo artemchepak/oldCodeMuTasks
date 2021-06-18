@@ -1,6 +1,8 @@
 <?php
 
-include 'Worker.php';
+require_once '../vendor/autoload.php';
+
+Use oop\lesson02\Worker as Worker;
 
 $worker1 = new Worker();
 $worker2 = new Worker();
