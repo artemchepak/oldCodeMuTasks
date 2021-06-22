@@ -1,8 +1,8 @@
 <?php
 
-namespace oop\lesson05_06;
+namespace OOP\Lesson05_06;
 
-Use oop\lesson05_06\Worker as Worker;
+Use OOP\Lesson05_06\Worker as Worker;
 
 class Driver extends Worker
 {

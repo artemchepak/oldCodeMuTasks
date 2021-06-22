@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-Use oop\lesson03\Worker as Worker;
+Use OOP\Lesson03\Worker as Worker;
 
 $worker1 = new Worker();
 $worker2 = new Worker();

@@ -1,12 +1,12 @@
 <?php
 
-namespace oop\lesson05_06;
+namespace OOP\Lesson02;
 
-class User
+class Worker
 {
-
-    protected $name;
-    protected $age;
+    private $name;
+    private $age;
+    private $salary;
 
     public function setName($name){
         return $this->name = $name;
@@ -24,4 +24,11 @@ class User
         return $this->age;
     }
 
+    public function setSalary($salary){
+        return $this->salary = $salary;
+    }
+
+    public function getSalary(){
+        return $this->salary;
+    }
 }
