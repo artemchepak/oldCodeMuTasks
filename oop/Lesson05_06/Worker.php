@@ -2,7 +2,7 @@
 
 namespace OOP\Lesson05_06;
 
-Use OOP\Lesson05_06\User as User;
+use OOP\Lesson05_06\User;
 
 class Worker extends User
 {

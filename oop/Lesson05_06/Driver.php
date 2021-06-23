@@ -2,7 +2,7 @@
 
 namespace OOP\Lesson05_06;
 
-Use OOP\Lesson05_06\Worker as Worker;
+use OOP\Lesson05_06\Worker;
 
 class Driver extends Worker
 {

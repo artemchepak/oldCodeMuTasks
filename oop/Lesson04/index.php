@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php';
 
-Use OOP\Lesson04\Worker as Worker;
+use OOP\Lesson04\Worker;
 
 $worker1 = new Worker('Дима', 25, 1000);
 
